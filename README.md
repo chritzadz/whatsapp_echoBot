@@ -80,4 +80,7 @@ To send a message back create a function that serve what to send. There are seve
 
 In general, you can follow the sendMessage.js file in the repository. Note that when calling the function use **await** keyword to make sure that it is sent before the lambda function ended it's execution. 
 
+## Creating custom template
+You can refer to this documentation: https://business.facebook.com/wa/manage/message-templates/. Make the template according to the needs. Make sure to follow the facebook policy of opt-in and opt-out to secure away reports from users. 
+
 
