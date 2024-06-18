@@ -78,6 +78,6 @@ Documentation of message object can be seen by Meta Developer https://developers
 
 To send a message back create a function that serve what to send. There are several types of message to be sent. refer to this documentation: https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates
 
-In general, you can follow the sendMessage.js file in the repository.
+In general, you can follow the sendMessage.js file in the repository. Note that when calling the function use **await** keyword to make sure that it is sent before the lambda function ended it's execution. 
 
 
